@@ -30,7 +30,7 @@ class Sprite {
 	}
 	
 	draw() {
-		c.drawImage(
+		c.draw(
 		  this.image, 
 		  this.framesCurrent * (this.image.width / this.framesMax),
 		  0,
